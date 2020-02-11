@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './login.styles.scss';
+import './login-form.styles.scss';
 
-const Login = () => {
+const LoginForm = () => {
     return ( 
         <div className="login-form">
             <form>
@@ -21,4 +21,4 @@ const Login = () => {
      );
 }
  
-export default Login;
+export default LoginForm;
