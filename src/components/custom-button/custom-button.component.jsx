@@ -4,8 +4,8 @@ import './custom-button.styles.scss';
 
 const CustomButton = ({name}) => {
     return (
-        <button  className="button">
-            {name}
+        <button className="custom-button">
+           {name}
         </button>
     );
 }

@@ -7,14 +7,14 @@ import './mobile-page.styles.scss';
 const MobilePage = () => {
     return ( 
         <div className="App">
-            <h1> Mobile Page </h1>
+            <h1> Mobile </h1>
             <ul className="mobile-info-list">
                 { mobileInfo.map( mobile => (
                     <li key={mobile.id}>
                         <MobileInfoCard mobile={mobile} />
                     </li>
                 ))}
-            </ul>
+            </ul>  
         </div>
      );
 }

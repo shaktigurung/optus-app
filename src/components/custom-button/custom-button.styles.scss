@@ -1,24 +1,24 @@
 
-.button {
-  background-color: #FDCC08;
-  color: #191919;
-  border: none;
-  width: 100%;
-  letter-spacing: 0.5px;
-  line-height: 50px;
-  padding: 0 35px 0 35px;
-  font-size: 15px;
-  text-transform: uppercase;
-  font-family: 'Open Sans Condensed';
-  font-weight: bolder;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
+.custom-button {
+    background-color: #FDCC08;
+    color: #191919;
+    border: none;
+    width: 100%;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
 
-  &:hover {
-    background-color: #191919;
-    color: #FDCC08;
-    border: 1px solid #191919;
-  }
+    &:hover {
+      background-color: #191919;
+      color: #FDCC08;
+      border: 1px solid #FDCC08;
+    }
 }
 
