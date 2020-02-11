@@ -5,7 +5,6 @@ import {mobileInfo} from './../../database/mobile-info.js';
 import './mobile-page.styles.scss';
 
 const MobilePage = () => {
-    //console.log(mobileInfo);
     return ( 
         <div className="App">
             <h1> Mobile Page </h1>

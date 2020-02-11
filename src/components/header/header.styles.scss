@@ -9,7 +9,7 @@
 .logo {
     height: 100%;
     width: 80px;
-    padding-left: 25px;
+    //padding-left: 25px;
 }
 
 .link-container {
@@ -23,5 +23,10 @@
         padding: 10px 15px;
         text-decoration: none;
         cursor: pointer;
+        color: #323232;
+
+        &:hover {
+            color: #FDCC08;
+        }
     }
 }

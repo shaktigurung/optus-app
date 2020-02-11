@@ -1,4 +1,10 @@
 .mobile-info-list {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
+    li {
+        margin: 20px;
+    }
 }
+
